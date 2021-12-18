@@ -1,0 +1,43 @@
+{
+  "name": "ShramenMod",
+  "version": "1.0.0",
+  "description": "Moderation bot for discord created by Shramen Noodles",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shramen Noodles (youtube.com/shramennoodles)",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "canvacord": "^5.1.0",
+    "canvas-senpai": "^1.0.0",
+    "cheerio": "^1.0.0-rc.10",
+    "custom-discord-jokes": "^1.0.3",
+    "discord-canvas": "^1.4.1",
+    "discord-giveaway": "^1.1.3",
+    "discord-giveaways": "^4.4.3",
+    "discord-tts": "^1.0.3",
+    "discord-xp": "^1.1.8",
+    "discord.js": "^12.5.3",
+    "discord.js-commando": "^0.12.0",
+    "distube": "^2.8.15",
+    "dotenv": "^8.2.0",
+    "ffmpeg-static": "^4.4.0",
+    "fs": "0.0.1-security",
+    "got": "^11.8.1",
+    "humanize-duration": "^3.26.0",
+    "mongoose": "^5.12.14",
+    "ms": "^2.1.3",
+    "python": "0.0.4",
+    "random-stuff-api": "^10.0.0",
+    "request-promise": "^4.2.6",
+    "trivia": "^1.0.0",
+    "twitter": "^1.7.1",
+    "walk": "^2.3.14",
+    "weather-js": "^2.0.0",
+    "youtube": "^0.1.0",
+    "yt-search": "^2.9.0",
+    "ytdl-core": "^4.8.2"
+  }
+}
