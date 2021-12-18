@@ -8,10 +8,10 @@ const memberCounter = require('./counters/member-counter')
 const rroles = require('./features/rr')
 const ms = require(`ms`)
 const { GivewayCreator, GiveawayCreator } = require('discord-giveaway')
-const Creator = new GiveawayCreator(client, "MONGODB_SRV = mongodb+srv://DiscordBot:1234@discordbot.gboc9.mongodb.net/ShramenModDB?retryWrites=true&w=majority 
+const Creator = new GiveawayCreator(client, "mongodb+srv://DiscordBot:1234@discordbot.gboc9.mongodb.net/ShramenModDB?retryWrites=true&w=majority 
 ");
 const Levels = require("discord-xp");
-Levels.setURL('MONGODB_SRV = mongodb+srv://DiscordBot:1234@discordbot.gboc9.mongodb.net/ShramenModDB?retryWrites=true&w=majority 
+Levels.setURL('mongodb+srv://DiscordBot:1234@discordbot.gboc9.mongodb.net/ShramenModDB?retryWrites=true&w=majority 
 '); // You only need to do this ONCE per process.
 const { DiscordAPIError, MessageEmbed, Message, } = require("discord.js");
 const bk = require('./models/bonks');
@@ -140,4 +140,4 @@ mongoose.connect(process.env.MONGODB_SRV, {
 })
 
 //LOGIN
-client.login(process.env.TOKEN);
+client.login('Nzk2NTAyMjg4MjUxMjI0MDg0.X_Y2jw.YrWeQm4PSyFCC2GImWKB-C_vfnE');
